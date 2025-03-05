@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Toaster } from "react-hot-toast";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router";
-import App from "./App";
+import App from "./app";
 import { store } from "./app/store";
 
 const Root: FC = () => {
